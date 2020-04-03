@@ -1,5 +1,3 @@
-![image-20200402092105527](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402092105527.png)<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401200523200.png" alt="image-20200401200523200" />认识Vue全家桶/生态圈
-
 # 大纲
 
 ## 核心成员
@@ -125,7 +123,7 @@ vue 14年，用户体验良好，尤雨溪，无锡人
 </html>
 ```
 
-![image-20200327122537393](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200327122537393.png)
+![](https://pic.images.ac.cn/image/5e86e31608c0b)
 
 ## 指令
 
@@ -351,13 +349,13 @@ v-if也是惰性的：如果在初始渲染时条件为假，则什么也不做�
 </html>
 ```
 
-![image-20200327173446887](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200327173446887.png)
+![](https://pic.images.ac.cn/image/5e86e363d697e)
 
 ## vue中的template（入口组件）
 
 入口组件包含了：html，css，js
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200327175015513.png" alt="image-20200327175015513" style="zoom:50%;" />
+![](https://pic.images.ac.cn/image/5e86e39664e2f)
 
 ### 局部组件
 
@@ -814,9 +812,9 @@ Vue.component('V-button',{
 
 ```
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200328104431413.png" alt="image-20200328104431413" style="zoom:50%;" />
+![](https://pic.images.ac.cn/image/5e86e3dd480d1)
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200328104605397.png" alt="image-20200328104605397" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e3fbbf240)
 
 ### 具名插槽(通过slot上的name)
 
@@ -872,7 +870,7 @@ Vue.component('V-button',{
 </html>
 ```
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200328110152313.png" alt="image-20200328110152313" style="zoom:50%;" />
+![](https://pic.images.ac.cn/image/5e86e426676cb)
 
 ## 过滤器
 
@@ -1104,7 +1102,7 @@ watch监听的是单个属性。
 
 ```
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200328123325181.png" alt="image-20200328123325181" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e45ed3f42)
 
 
 
@@ -1572,7 +1570,7 @@ $attrs是$pops的集合
 </html>
 ```
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200328153842324.png" alt="image-20200328153842324" style="zoom:50%;" />
+![](https://pic.images.ac.cn/image/5e86e497a2244)
 
 ### 中央事件总线（非父子组件间通信）（创建公共的类）
 
@@ -1684,7 +1682,7 @@ $attrs是$pops的集合
 </html>
 ```
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200328154341647.png" alt="image-20200328154341647" style="zoom:50%;" />
+![](https://pic.images.ac.cn/image/5e86e4b6e37ac)
 
 ### provide(传值)和inject（接收）【父组件传值，子组件接收】
 
@@ -1859,7 +1857,7 @@ $attrs是$pops的集合
 
 ### vuex流程图
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200328161839735.png" alt="image-20200328161839735" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e4e085133)
 
 **Vuex原理**
 
@@ -2040,9 +2038,7 @@ JSON.parse(window.localStorage.getItem("subscribeList"));    // string -> array
 
 ## 生命周期的图示
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200329125846436.png" alt="image-20200329125846436" style="zoom:80%;" />
-
-
+![](https://pic.images.ac.cn/image/5e86e20412447)
 
 ## 核心插件
 
@@ -3406,7 +3402,7 @@ model.exports{
 
 > webpack是一个现代JavaScript应用程序的静态模块打包器。当 webpack 处理应用程序时，它会递归地构建一个*依赖关系图(dependency graph)*，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 *bundle*。
 >
-> ![image-20200331142837324](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200331142837324.png)
+> ![](https://pic.images.ac.cn/image/5e86e55811dad)
 
 ### 历史介绍
 
@@ -3520,7 +3516,7 @@ export default App;
 
 ####  4.在package.json文件中配置如下：
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401165356620.png" alt="image-20200401165356620" style="zoom:50%;" />
+![](https://pic.images.ac.cn/image/5e86e5857b8b4)
 
 ```javascript
 {
@@ -3562,17 +3558,17 @@ export default App;
 
 1. 直接运行build.js文件
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401165720742.png" alt="image-20200401165720742" style="zoom:50%;" />
+   ![](https://pic.images.ac.cn/image/5e86e5b23e245)
 
 2. 配置build文件，然后通过run命令来运行打包后的build文件
 
-   <img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401165932667.png" alt="image-20200401165932667" style="zoom:80%;" />
+   ![](https://pic.images.ac.cn/image/5e86e5e42cdd3)
 
-   <img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401170013894.png" alt="image-20200401170013894" style="zoom:80%;" />
+   ![](https://pic.images.ac.cn/image/5e86e60bb1e43)
 
    3.上面那种方法也可以通过webpack直接运行
 
-   ![image-20200401182302745](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401182302745.png)
+   ![](https://pic.images.ac.cn/image/5e86e6342f57f)
 
 ### webpack 编译之后的build.js文件解读
 
@@ -3889,9 +3885,9 @@ http://www.ruanyifeng.com/blog/2014/10/event-loop.html
   - loaders:[]
     - 存在一些loader   `{ test:正则,loader:'style-loader!css-loader'    }
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401183220953.png" alt="image-20200401183220953" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e68797f35)
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401183138406.png" alt="image-20200401183138406" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e6a5a45d0)
 
 #### 配置文件webpack.config.js的修改
 
@@ -3919,7 +3915,7 @@ import './main.css'
 
 #### 编译之后报错
 
-![image-20200401184528866](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401184528866.png)
+![](https://pic.images.ac.cn/image/5e86e6dd544c8)
 
 对于webpack来说，css文件也是一个模块，但是像这样的文件，webpack得需要loaders去处理这些文件
 
@@ -4081,7 +4077,7 @@ module.exports = {
 
 不分离出第三方库和自定义公共模板：
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401203904887.png" alt="image-20200401203904887" style="zoom:50%;" />
+![](https://pic.images.ac.cn/image/5e86e702375ba)
 
 src目录下各个文件内容，尽量保持简单：
 
@@ -4333,7 +4329,7 @@ document.getElementById('bBtn').onclick = function(){
 
 #### 在package.json文件中配置
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401195248700.png" alt="image-20200401195248700" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e740b7126)
 
 #### 直接执行 ```npm run dev```
 
@@ -4392,7 +4388,7 @@ loader:[
 
 发现！！！！！
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401200523200.png" alt="image-20200401200523200" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e76694725)
 
 解决：
 
@@ -4416,11 +4412,11 @@ loader:[
 也会发现，当排除掉node_modules文件中的es6代码编译后，编译的时间也快了
 以前出错的，3601毫秒的时候就开始出错了。。。。
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401200754159.png" alt="image-20200401200754159" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e78794f04)
 
 排除掉node_modules之后
 
-![image-20200401200629532](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200401200629532.png)
+![](https://pic.images.ac.cn/image/5e86e7b0304c0)
 
 
 
@@ -4556,7 +4552,7 @@ var Vnode = {
 
 下面这张图是Diff示意图：
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402091440317.png" alt="image-20200402091440317" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e7d1da7be)
 
 由此图我们可以看出：
 
@@ -4570,11 +4566,11 @@ var Vnode = {
 
 比如下面这个情况
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402091756890.png" alt="image-20200402091756890" style="zoom:80%;" />![image-20200402092047097](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402092047097.png)
+![](https://pic.images.ac.cn/image/5e86e7ecae38e)
 
 我们希望可以在B和C之间加一个F,Diff算法默认 执行起来是这样的：
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402092125706.png" alt="image-20200402092125706" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e8139a911)
 
 既把C更新成F,D更新成C,E更新成D,最后再插入E,是不是很没有效率？
 
@@ -4582,7 +4578,7 @@ var Vnode = {
 
 所有我们***需要使用key来给每个节点做一个唯一的标识，Diff算法就可以正确的识别此节点，找到正确的位置区插入新的节点***
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402092854645.png" alt="image-20200402092854645" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e83374790)
 
 所以一句话，***key的作用主要是为了高效的更新虚拟DOM***。另外vue的在使用相同标签名元素的过渡切换时，也会使用到key属性，其目的也是为了让vue可以区分他们，否则vue只会替换其内部属性而不会触发过渡效果。
 
@@ -5014,7 +5010,7 @@ $ vue init webpack my-project
 
 相关文件和文件夹的含义：
 
-![image-20200402085713939](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402085713939.png)
+![](https://pic.images.ac.cn/image/5e86e85a44362)
 
 
 
@@ -5222,7 +5218,7 @@ documentation_url: "https://developer.github.com/v3/users/#get-the-authenticated
 
 - 生成项目文件，安装依赖安装包
 
-<img src="C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402112414130.png" alt="image-20200402112414130" style="zoom:80%;" />
+![](https://pic.images.ac.cn/image/5e86e89dc0b97)
 
 - 安装mint-ui框架
 
@@ -5230,12 +5226,12 @@ documentation_url: "https://developer.github.com/v3/users/#get-the-authenticated
   npm install mint-ui -S
   ```
 
-  ![image-20200402113731297](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402113731297.png)
+  ![](https://pic.images.ac.cn/image/5e86e8c25c106)
 
   > 参考网址：http://mint-ui.github.io/#!/zh-cn
 
 - 在src下的main.js中使用mint-ui框架/引入mint-ui包及全局css样式
 
-  ![image-20200402114531993](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20200402114531993.png)
+  ![](https://pic.images.ac.cn/image/5e86e8e87ec0b)
 
-- 
+  
